@@ -1,4 +1,4 @@
-function greet(name:String):String{
+function greet11(name:String):String{
     return `Name : ${name}`
 }
 console.log("Azeem");
