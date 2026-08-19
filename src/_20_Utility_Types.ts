@@ -164,14 +164,14 @@ type CleanValue = NonNullable<Value>;
 // --> Parameters<T> ⭐⭐⭐⭐⭐
 //Parameters function ke parameters ka tuple type nikalta hai.
 //Function:
-function createUser(
+function createUser0(
     name: string,
     age: number,
     active: boolean
 ) {
     // ...
 }
-type Params = Parameters<typeof createUser>;
+type Params = Parameters<typeof createUser0>;
 // Result:
 // [string, number, boolean]
 // Notice ye array nahi hai.
